@@ -1,5 +1,5 @@
 <?php session_start();
-    $_SESSION['greeting'] = "Hello World! You guys are awesome.";
+    echo $_SESSION['greeting'];
 ?>
 
 <!DOCTYPE html>
